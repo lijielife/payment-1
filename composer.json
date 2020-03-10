@@ -1,0 +1,20 @@
+{
+    "name": "yunlyz/payment",
+    "description": "微信支付API v3接口SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lvyun",
+            "email": "yunlv.go@gmail.com"
+        }
+    ],
+    "require": {
+        "wechatpay/wechatpay-guzzle-middleware": "^v0.1",
+        "guzzlehttp/guzzle": "6.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "WechatPayment\\": "src"
+        }
+    }
+}
